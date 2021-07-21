@@ -1,0 +1,51 @@
+@media (prefers-color-scheme: light) {
+	div.top-bar {
+		background-image: linear-gradient(45deg, #c4163a, #e83a19);
+		background-color: #c4163a;
+		color: white;
+
+		transition: 0.3s;		
+}
+	
+	a.top-bar-button, a:link.top-bar-button, a:visited.top-bar-button {
+		background-color: rgba(255, 253, 248, 0.85);
+		color: rgb(0, 6, 26);
+		
+		transition: 0.1s;
+	}	
+	
+	a.top-bar-button:hover {
+		background-color: rgba(255, 253, 248, 0.9);
+		transition: 0.1s;
+	}
+
+	a.top-bar-button:active, a.top-bar-button:focus {
+		background-color: rgb(255, 253, 248);
+		transition: 0.1s;
+	}
+	
+	
+	a.top-bar-ghost-button, a:link.top-bar-ghost-button, a:visited.top-bar-ghost-button {
+		color: rgb(255, 253, 248);;
+		border-color: rgb(255, 253, 248, 0.8);
+	
+		transition: 0.1s;
+	}
+	
+	a.top-bar-ghost-button:hover {
+		border-color: rgba(255, 253, 248, 0.95);
+		transition: 0.1s;
+	}
+	
+	a.top-bar-ghost-button:active, a.top-bar-ghost-button:focus {
+		border-color: rgb(255, 253, 248);
+		background-color: rgba(255, 253, 248, 255);
+		/*color: rgb(0, 6, 26);*/
+			
+		transition: 0.1s;
+	}
+
+	.top-bar-divider {
+		color: #c4163a00;
+	}
+}
