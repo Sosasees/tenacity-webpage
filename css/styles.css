@@ -1,0 +1,39 @@
+@import url("color-schemes.css");
+@import url("top-bar.css");
+
+body	{
+	font-family: sans-serif;
+	max-width: 35em;
+	margin: auto;
+}
+a:link, a:visited {
+	color: #c4163a;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+img.main-image {
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 0.1em #00001040;
+
+	transition: 0.1s;
+}
+
+img.main-image:hover {
+	box-shadow: box-shadow: 0 0 0.2em #00001080;;
+}
+
+img.main-image:focused, img.main-image:active {
+	box-shadow: box-shadow: 0 0 0.3em #00001090;;
+}
+
+.emphasized {	font-weight: bold;	}
+.citation-needed{
+	vertical-align: super;
+	font-size: 75%;
+}

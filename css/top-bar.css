@@ -1,0 +1,73 @@
+@import url("top-bar-light.css");
+@import url("top-bar-dark.css");
+
+div.top-bar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: -27em;
+
+	width: 35em;
+	margin-left: -3em;
+	padding-top: 1em;
+	padding-bottom: 1.2em;
+	padding-left: 3em;
+	padding-right: 3em;
+	
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	box-shadow: 0 0 0.1em #00001040;
+}
+
+a.top-bar-button, a:link.top-bar-button, a:visited.top-bar-button {
+	text-decoration: none;
+		
+	margin: 0.2em;
+	padding: 0.5em 1em;
+	border-radius: 1em;
+	
+	box-shadow: 0 0 0.1em #00001040;
+	transition: 0.1s;
+}	
+
+a.top-bar-button:hover {
+	box-shadow: 0 0 0.2em #00001080;
+	transition: 0.1s;
+}
+
+a.top-bar-button:active, a.top-bar-button:focus {
+	box-shadow: 0 0 0.4em #00001090;
+	transition: 0.1s;
+}
+
+
+a.top-bar-ghost-button, a:link.top-bar-ghost-button, a:visited.top-bar-ghost-button {
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	
+	margin: 0.2em;
+	padding: 0.325em 0.85em;
+	border-radius: 1.1em;
+	
+	border-style: solid;
+	border-width: 0.3em;
+
+	box-shadow: 0 0 0.1em #00001040;
+
+	transition: 0.1s;
+}
+
+a.top-bar-ghost-button:hover {
+	box-shadow: 0 0 0.2em #00001080;
+	transition: 0.1s;
+}
+
+a.top-bar-ghost-button:active, a.top-bar-ghost-button:focus {
+	box-shadow: 0 0 0.4em #00001090;
+	transition: 0.1s;
+}
+
+
+.top-bar-divider {
+	padding: 1em;
+}
+
