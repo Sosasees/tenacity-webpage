@@ -1,0 +1,26 @@
+div.features-section {
+	padding-left: var(--page-padding);
+	padding-right: var(--page-padding);
+	max-width: 40rem;
+	margin: auto;
+	display: grid;
+	grid-column-template: auto;
+}
+
+div.feature-card {	display: flex;	}
+
+img.feature-icon {
+	height: 32px;
+	padding-top: var(--page-padding);
+	fill: var(--on-background);
+}
+
+/* Filters recoloring the icons to --color-on-background: generated with
+https://codepen.io/sosuke/pen/Pjoqqp
+*/
+@media(prefers-color-scheme: light) { img.feature-icon {
+	filter: invert(27%) sepia(12%) saturate(243%) hue-rotate(5deg) brightness(98%) contrast(90%);
+} }
+@media(prefers-color-scheme: dark) { img.feature-icon {
+	filter: invert(83%) sepia(9%) saturate(574%) hue-rotate(189deg) brightness(104%) contrast(78%);
+} }

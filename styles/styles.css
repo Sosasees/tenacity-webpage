@@ -1,0 +1,61 @@
+@import url("color-palette.css");
+@import url("community-buttons-layout.css");
+@import url("button.css");
+@import url("feature-cards.css");
+
+:root {
+	--page-padding: 1rem;
+	--corner-radius: 5px;
+}
+
+.citation-needed {
+	font-size: 70%;
+	vertical-align: top;
+}
+
+.main-image {
+	max-width: 80%;
+	max-height: calc(90vh - 71px - 6em);
+	border-radius: var(--corner-radius);
+}
+
+body {
+	background-color: var(--color-background);
+	color: var(--color-on-background);
+	font-family: sans-serif;
+	margin: 0;
+}
+
+p {
+	padding-left: var(--page-padding);
+	padding-right: var(--page-padding);
+}
+
+.standard-paragraph {
+	max-width: 40em;
+	margin-left: auto;	margin-right: auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+a:link, a:visited {
+	color: var(--color-on-background-link);
+	text-decoration: underline;
+}
+a:focus, a:active { text-decoration: none; }
+
+.header {
+	width: 100%;
+	background-image: linear-gradient(24deg, var(--color-primary), var(--color-primary-gradient-end));
+	color: var(--color-on-primary);
+	text-align: center;
+	padding-top: 1rem;	padding-bottom: 1rem;
+	padding-left: 0;	padding-right: 0;
+}

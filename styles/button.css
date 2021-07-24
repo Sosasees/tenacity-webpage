@@ -1,0 +1,36 @@
+.button {
+	--shadow-normal: 0 0 2px #00001040;
+	--shadow-hover: 0 0 3px #00001080;
+	--shadow-active: 0 0 4px #00001090;
+	--transition-time: 0.1s
+}
+
+a:link.button, a:visited.button {
+	text-decoration: none;
+	padding-top: 0.5rem;	padding-bottom: 0.5rem;
+	padding-left: 1rem;	padding-right: 1rem;
+	margin: 2px;
+	background-color: var(--color-primary);
+	color: var(--color-on-primary);
+	border-radius: var(--corner-radius);
+}
+
+a:link.header-button, a:visited.header-button {
+	background-color: var(--color-on-primary);
+	color: var(--color-primary);
+}
+
+a:link.button, a:visited.button {
+	box-shadow: var(--shadow-normal);
+	transition: var(--transition-time);
+}
+
+a:focus.button, a:hover.button {
+	box-shadow: var(--shadow-hover);
+	transition: var(--transition-time);
+}
+
+a:active.button {
+	box-shadow: var(--shadow-active);
+	transition: var(--transition-time);
+}

@@ -9,8 +9,8 @@
 <meta name="author" content="Tenacity Team"/>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-<link rel="shortcut icon" type="image/svg" href="favicon.svg"/>
+<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+<link rel="shortcut icon" type="image/svg" href="logo/favicon.svg"/>
 <meta charset="utf-8"/>
 <meta name="keywords" content="Audio, Recording, Editing, Easy-to-Use, FLOSS, Free, Libre, Open-Source, Tenacity"/>
 
@@ -19,120 +19,134 @@
 
 <body>
 
-<div class="top-bar">
+<div class="header">
 
-<a href="main-screenshot.png">
-<img alt="" src="main-screenshot.png" class="main-image"/>
-</a>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="images/main-screenshot-light.png"/>
+    <source media="(prefers-color-scheme: dark)" srcset="images/main-screenshot-dark.png"/>
+    <img alt="" src="images/main-screenshot-light.png" class="main-image"/>
+  </picture>
 
-<h1><img alt="Tenacity" src="header-logo.svg" height="51"/></h1>
+  <h1 style="margin-bottom: 1rem;">
+    <img alt="Tenacity" src="logo/header-logo.svg" height="51"/>
+  </h1>
+  an easy-to-use, cross-platform multi-track audio editor/recorder
 
-<a href="https://github.com/tenacityteam/tenacity/releases" class="top-bar-button">
-Download</a>
-
-<a class="top-bar-divider"> | </a>
-
-Source:
-<a href="https://git.sr.ht/~tenacity/tenacity" class="top-bar-button">
-Sourcehut</a>
-<a href="https://github.com/tenacityteam/tenacity" class="top-bar-ghost-button">GitHub</a>
-
-
+  <p style="margin-top: 2rem;">
+    <a href="https://github.com/tenacityteam/tenacity/releases" class="button header-button">
+      Download
+    </a>
+  </p>
 </div>
 
-<!--- <h1>Tenacity</h1>
-<p>an easy-to-use, cross-platform multi-track audio editor/recorder</p> -->
-
-<p>
-Hint: This is not the real Tenacity website.<br/>
-This is a working prototype made by Sosasees<br/>
-for suggestion purposes.<br/>
-<a href="https://www.github.com/sosasees/tenacity-webpage/">View its Source Code on GitHub.</a>
+<p class="standard-paragraph">
+<nobr>Hint: This is not the real Tenacity website.</nobr>
+<nobr>This is a working prototype made by Sosasees</nobr>
+<nobr>for suggestion purposes.</nobr>
+<a href="https://www.github.com/sosasees/tenacity-webpage/">
+  <nobr>View its Source Code on GitHub.</nobr>
+</a>
 </p>
 
-<ul>
-  <!-- <li>
-    <a href="https://github.com/tenacityteam/tenacity/releases">
-      Releases
-    </a>
-  </li>
-  <li>Source Repository:
-    <a href="https://git.sr.ht/~tenacity/tenacity">Sourcehut</a>,
-    <a href="https://github.com/tenacityteam/tenacity">GitHub</a>
-  </li> -->
-  <li><a href="https://sr.ht/~tenacity/tenacity/lists">Mailing Lists</a></li>
-  <li>
-    <a href="irc://irc.libera.chat/tenacity">IRC</a>
-    (<a href="https://web.libera.chat/">web, /join #tenacity</a>)
-  </li>
-</ul>
-
-<p>
-<a class="emphasized">Tenacity</a> is an easy-to-use, cross-platform<br/>
-multi-track audio editor/recorder<br/>
-for Windows, MacOS, GNU/Linux and other operating systems<br/>
-and is developed by a group of volunteers as open-source software.<br/>
+<p class="standard-paragraph">
+<em>Tenacity</em> is an easy-to-use, cross-platform multi-track
+audio&nbsp;editor/recorder
+for Windows, MacOS, GNU/Linux and other operating systems
+and is developed by a group of volunteers as open-source software.
 </p>
 
-<p>Its features include:</p>
-<ul>
-  <li>
-    <a class="emphasized">Recording</a> from audio devices (real or virtual)
-  </li>
-  <li>
-    <a class="emphasized">Export & Import</a> a wide range of audio formats<br/>
-    &#9;(extendible with FFmpeg)
-  </li>
-  <li>
-    <a class="emphasized">High Quality</a>
-    including up to 32-bit float audio support
-  </li>
-  <li>
-    <a class="emphasized">Plug-Ins</a> providing support for
-    VST, LV2, and AU plugins
-  </li>
-  <li>
-    <a class="emphasized">Scripting</a>
-   in the built-in scripting language Nyquist,<br/>
-   or in Python, Perl and other languages with named pipes
-  </li>
-  <li>
-    <a class="emphasized">Editing</a> arbitrary sampling and multi-track timeline
-  </li>
-  <li>
-    <a class="emphasized">Accessibility</a> including editing via keyboard,<br/>
-    screen reader support and narration support
-  </li>
-  <li>
-    <a class="emphasized">Tools</a>
-    useful in the analysis of signals, including audio
-  </li>
-</ul>
+<h2>Community</h2>
+
+<div class="community-section">
+  <a href="https://git.sr.ht/~tenacity/tenacity" class="community-sourcehut-link button">
+    Sourcehut
+  </a>
+  <a href="https://github.com/tenacityteam/tenacity" class="community-github-link button">
+    GitHub
+  </a>
+  <a href="https://sr.ht/~tenacity/tenacity/lists" class="community-maillist-link button">
+    Mailing Lists
+  </a>
+  <a href="irc://irc.libera.chat/tenacity" class="community-irc-link button button">
+    IRC
+  </a>
+  <a href="https://web.libera.chat/" class="community-irc-join-link button">
+    Join&nbsp;#tenacity&nbsp;IRC&nbsp;channel
+    (<nobr>web, /join #tenacity</nobr>)
+  </a>
+</div>
+
+<h2>Features</h2>
+<div class="features-section">
+  <div class="feature-card">
+    <img alt="" src="feature-icon.svg" class="feature-icon"/>
+    <p><em>Recording</em><br/>
+    from audio devices (real or virtual)</p>
+  </div>
+  <div class="feature-card">
+    <img alt="" src="feature-icon.svg" class="feature-icon"/>
+    <p><em>Export & Import</em><br/>
+    a wide range of audio formats (extendible with FFmpeg)</p>
+  </div>
+  <div class="feature-card">
+    <img alt="" src="feature-icon.svg" class="feature-icon"/>
+    <p><em>High Quality</em><br/>
+    including up to 32-bit float audio support</p>
+  </div>
+  <div class="feature-card">
+    <img alt="" src="feature-icon.svg" class="feature-icon"/>
+    <p><em>Plug-Ins</em><br/>
+    providing support for VST, LV2, and AU plugins</p>
+  </div>
+  <div class="feature-card">
+    <img alt="" src="feature-icon.svg" class="feature-icon"/>
+    <p><em>Scripting</em></br>
+      in the built-in scripting language Nyquist, or in Python, Perl and
+      other languages with named pipes
+    </p>
+  </div>
+  <div class="feature-card">
+    <img alt="" src="feature-icon.svg" class="feature-icon"/>
+    <p><em>Editing</em><br/>
+    arbitrary sampling and multi-track timeline</p>
+  </div>
+  <div class="feature-card">
+    <img alt="" src="feature-icon.svg" class="feature-icon"/>
+    <p><em>Accessibility</em><br/>
+      including editing via keyboard, screen reader support and narration
+      support
+    </p>
+  </div>
+  <div class="feature-card">
+    <img alt="" src="feature-icon.svg" class="feature-icon"/>
+    <p><em>Tools</em><br/>
+    useful in the analysis of signals, including audio</p>
+  </div>
+</div>
 
 <h2>Getting Started</h2>
 
-<p>
-Prepackaged builds will be available<br/>through the
+<p class="standard-paragraph">
+Prepackaged builds will be available through the
 <a href="https://github.com/tenacityteam/tenacity/releases">releases page</a>
-on the repository<br/>
-once the initial process of transitioning the project<br/>
+on the repository once the initial process of transitioning the project
 is completed enough for the first release version.
 </p>
-<p>Alternatively, you can build Tenacity from source.
+<p class="standard-paragraph">Alternatively, you can build Tenacity from source.
 <a class="citation-needed">[How?]</a></p>
 
 <h2>Getting Help</h2>
 
-<p>
-A great place to ask for general questions with using Tenacity,<br/>
-starting discussions about your ideas and feature requests,<br/>
-and generally getting to know the community<br/>is the
+<p class="standard-paragraph">
+A great place to ask for general questions with using Tenacity,
+starting discussions about your ideas and feature requests,
+and generally getting to know the community is the
 <a href="https://lists.sr.ht/~tenacity/tenacity-discuss">
   tenacity-discuss mailing list
 </a>.
 </p>
 
-<p>
+<p class="standard-paragraph">
 You may also use our IRC channel,<br/>
 <a href="irc://irc.libera.chat/#tenacity">#tenacity</a>
 (hosted on irc.libera.chat),<br/>where you're welcome to ask questions
@@ -143,8 +157,8 @@ The channel is also
 
 <h2>Development</h2>
 
-<p>The upstream development repository may be found on sr.ht.</p>
-<p>
+<p class="standard-paragraph">The upstream development repository may be found on sr.ht.</p>
+<p class="standard-paragraph">
 Contribute by sending patches to the<br/>
 <a href="https://lists.sr.ht/~tenacity/tenacity-dev">
 development mailing list</a> at
