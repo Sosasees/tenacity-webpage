@@ -1,7 +1,6 @@
 .community-section {
 	max-width: 32em;
 	display: grid;
-	grid-column-template: auto auto auto auto;
 	text-align: center;
 	padding-left: var(--page-padding);
 	padding-right: var(--page-padding);
