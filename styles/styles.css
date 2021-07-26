@@ -8,6 +8,15 @@
 	--corner-radius: 5px;
 }
 
+.header {
+	width: 100%;
+	background-image: linear-gradient( to top right, var(--color-primary), var(--color-primary-gradient-end) );
+	color: var(--color-on-primary);
+	text-align: center;
+	padding-top: 1rem;	padding-bottom: 1rem;
+	padding-left: 0;	padding-right: 0;
+}
+
 .main-image {
 	max-width: 80%;
 	max-height: calc(90vh - 71px - 6em);
@@ -49,12 +58,3 @@ a:link, a:visited {
 	text-decoration: underline;
 }
 a:focus, a:active { text-decoration: none; }
-
-.header {
-	width: 100%;
-	background-image: linear-gradient( to top right, var(--color-primary), var(--color-primary-gradient-end) );
-	color: var(--color-on-primary);
-	text-align: center;
-	padding-top: 1rem;	padding-bottom: 1rem;
-	padding-left: 0;	padding-right: 0;
-}
