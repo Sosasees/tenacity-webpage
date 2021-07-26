@@ -8,15 +8,14 @@
 	--corner-radius: 5px;
 }
 
-.citation-needed {
-	font-size: 70%;
-	vertical-align: top;
-}
-
 .main-image {
 	max-width: 80%;
 	max-height: calc(90vh - 71px - 6em);
 	border-radius: var(--corner-radius);
+}
+
+.padding-before-and-after-text {
+	padding-top: 0.4rem;	padding-bottom: 0.4rem;
 }
 
 body {
