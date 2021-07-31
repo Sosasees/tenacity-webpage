@@ -4,6 +4,7 @@
 @import url("feature-cards.css");
 
 :root {
+	--line-height: 160%;
 	--page-padding: 1rem;
 	--corner-radius: 5px;
 }
@@ -32,7 +33,6 @@ body {
 	color: var(--color-on-background);
 	font-family: sans-serif;
 	margin: 0;
-	line-height: 1.4
 }
 
 p {
@@ -43,6 +43,7 @@ p {
 .standard-paragraph {
 	max-width: 40em;
 	margin-left: auto;	margin-right: auto;
+	line-height: var(--line-height);
 }
 
 h2 {

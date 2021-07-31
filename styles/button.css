@@ -7,9 +7,10 @@
 
 a:link.button, a:visited.button {
 	text-decoration: none;
-	padding-top: 0.5rem;	padding-bottom: 0.5rem;
+	padding-top: 0.65rem;	padding-bottom: 0.6rem;
 	padding-left: 1rem;	padding-right: 1rem;
 	margin: 2px;
+	/*line-height: var(--line-height);*/
 	background-color: var(--color-primary);
 	color: var(--color-on-primary);
 	border-radius: var(--corner-radius);
