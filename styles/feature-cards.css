@@ -6,7 +6,10 @@ div.features-section {
 	display: grid;
 }
 
-div.feature-card {	display: flex;	}
+div.feature-card {
+	display: flex;
+	line-height: var(--line-height);
+}
 
 img.feature-icon {
 	height: 32px;
