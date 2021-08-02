@@ -2,10 +2,12 @@
 @import url("buttons-layout.css");
 @import url("button.css");
 @import url("feature-cards.css");
+@import url("footer.css");
 
 :root {
-	--line-height: 160%;
 	--page-padding: 1rem;
+	--page-width: 40rem;
+	--line-height: 160%;
 	--corner-radius: 5px;
 }
 
@@ -41,14 +43,12 @@ p {
 }
 
 .standard-paragraph {
-	max-width: 40em;
+	max-width: var(--page-width);
 	margin-left: auto;	margin-right: auto;
 	line-height: var(--line-height);
 }
 
-h2 {
-	text-align: center;
-}
+h2 {	text-align: center;	}
 
 em {
 	font-style: normal;
@@ -59,4 +59,5 @@ a:link, a:visited {
 	color: var(--color-on-background-link);
 	text-decoration: underline;
 }
-a:focus, a:active { text-decoration: none; }
+a:hover, a:focus {	text-decoration: none;	}
+a:active { text-decoration: underline;	}

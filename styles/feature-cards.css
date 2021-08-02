@@ -1,7 +1,7 @@
 div.features-section {
 	padding-left: var(--page-padding);
 	padding-right: var(--page-padding);
-	max-width: 40rem;
+	max-width: var(--page-width);
 	margin: auto;
 	display: grid;
 }
