@@ -2,12 +2,12 @@ footer {
 	padding: var(--page-padding);
 	opacity: 80%;
 	border-top: 1px dotted var(--color-on-background);
-	width: calc( var(--page-width) + 1em );
+	max-width: var(--page-width);
 	margin-left: auto;	margin-right: auto;
 }
 
 .footer-contents {
-	width: var(--page-width);
+	max-width: var(--page-width);
 	margin-left: auto;	margin-right: auto;
 
 }
