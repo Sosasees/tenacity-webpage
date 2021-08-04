@@ -9,8 +9,9 @@ https://sosasees.github.io/tenacity-webpage
 
 If you are the Tenacity Team and want to host this webpage as the official Tenacity website, please consider doing this:
 
-- Remove the first paragraph on the page that states that the page is a prototype
-- Replace the placeholder "Documentatin" link with the real link, as soon as it's available
-- If the Documentation is the Wiki, replace the text in the "Documentation" button with "Wiki"
+- Delete the first paragraph on the page that states that the page is a prototype
+- Replace the placeholder "Documentation" link with the real link, as soon as it's available
 - Comment out the "Documentation" section until replacing the placeholder link with the real link
 - Remove the file "placeholder.html"
+- Replace the Screenshots so that both the Light Mode Screenshot and the Light Mode Screenshot
+are licensed under CC-BY 4.0 and in 16:9 Aspect Ratio
