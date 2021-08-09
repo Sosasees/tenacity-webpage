@@ -13,5 +13,3 @@ If you are the Tenacity Team and want to host this webpage as the official Tenac
 - Replace the placeholder "Documentation" link with the real link, as soon as it's available
 - Comment out the "Documentation" section until replacing the placeholder link with the real link
 - Remove the file "placeholder.html"
-- Replace the Screenshots so that both the Light Mode Screenshot and the Light Mode Screenshot
-are licensed under CC-BY 4.0 and in 16:9 Aspect Ratio
