@@ -13,7 +13,7 @@
 
 .header {
 	width: 100%;
-	background-image: linear-gradient( to top right, var(--color-primary), var(--color-primary-gradient-end) );
+	background-image: linear-gradient( to top right, var(--color-header-gradient-start), var(--color-header-gradient-end) );
 	color: var(--color-on-primary);
 	text-align: center;
 	padding-top: 1rem;	padding-bottom: 1rem;
