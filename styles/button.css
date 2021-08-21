@@ -32,3 +32,8 @@ a:link.header-button, a:visited.header-button {
 	background-color: var(--color-on-primary);
 	color: var(--color-primary);
 }
+
+
+a:link.emphasized-button, a:visited.emphasized-button {
+	background-image: linear-gradient( to top right, var(--color-primary), var(--color-primary-gradient-end) );
+}

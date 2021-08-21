@@ -2,20 +2,19 @@ footer {
 	padding: var(--page-padding);
 	opacity: 80%;
 	border-top: 1px dotted var(--color-on-background);
-	max-width: var(--page-width);
+	max-width: var(--extended-page-width);
 	margin-left: auto;	margin-right: auto;
-	/*line-width: var(--line-width);*/
 }
 
 .footer-contents {
-	max-width: var(--page-width);
+	max-width: var(--extended-page-width);
 	margin-left: auto;	margin-right: auto;
 	padding: 0;
 }
 
 p.footer-contents {
 	margin: 0;
-	--footer-line-margin: 0.6em;
+	margin-bottom: 0.6rem;
 }
 
 a.footer-contents, a:link.footer-contents, a:visited.footer-contents {

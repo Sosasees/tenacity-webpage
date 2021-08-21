@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" version="1.1" viewBox="0 0 16.912 16.912" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+<cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+</cc:Work>
+<cc:License rdf:about="http://creativecommons.org/licenses/by/4.0/">
+<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+<cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+<cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+</cc:License>
+</rdf:RDF>
+</metadata>
+<style type="text/css">
+  @media(prefers-color-scheme: light) {
+    #background { opacity: 0; }
+    #wave { opacity: 1; }
+  }
+  @media(prefers-color-scheme: dark) {
+    #wave { opacity: 0; }
+    #background { opacity: 1; }
+  }
+</style>
+<defs>
+  <linearGradient id="a">
+    <stop stop-color="#e93c17" offset="0"/>
+    <stop stop-color="#ca153e" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" x1="16.912" x2="-2.5642e-7" y1=".000491" y2="16.912" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+  <linearGradient id="c" x1="16.912" x2=".5285" y2="16.912" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+  <linearGradient id="b" x1="32" x2="-4.8519e-7" y1=".00092904" y2="32.001" gradientTransform="matrix(.5285 0 0 .5285 -.069828 0)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+</defs>
+<g>
+  <path id="background" d="m2.114 1.057c-0.59471 0-1.057 0.46229-1.057 1.057v5.285h3.171v-3.171h2.114v2.114h2.114v-4.228h2.114v3.171h2.114v2.114h3.171v-5.285c0-0.59471-0.46229-1.057-1.057-1.057zm-1.057 8.456v5.285c0 0.59471 0.46229 1.057 1.057 1.057h12.684c0.59471 0 1.057-0.46229 1.057-1.057v-5.285h-3.171v2.114h-2.114v3.171h-2.114v-4.228h-2.114v2.114h-2.114v-3.171z"
+    fill="url(#c)" stroke-width=".045714" style="paint-order:markers fill stroke"/>
+  <path id="wave" d="m1.057 7.3995 9e-7 2.1135 3.171 4.91e-4v3.171h2.114v-2.1145h2.114v4.2285l2.114-4.92e-4v-3.1705h2.114v-2.1145l3.171 4.91e-4v-2.114h-3.171v-2.114h-2.114v-3.1715l-2.114 4.905e-4v4.228h-2.114v-2.114h-2.114l7e-7 3.1705z"
+    fill="url(#d)"/>
+  <!--outline--><path d="m2.114 0c-1.162 0-2.114 0.95201-2.114 2.114v12.684c0 1.162 0.952 2.114 2.114 2.114h12.684c1.162 0 2.114-0.95201 2.114-2.114v-12.684c0-1.162-0.95201-2.114-2.114-2.114zm0 1.057h12.684c0.59471 0 1.057 0.46229 1.057 1.057v12.684c0 0.59471-0.46229 1.057-1.057 1.057h-12.684c-0.59471 0-1.057-0.46229-1.057-1.057v-12.684c0-0.59471 0.46229-1.057 1.057-1.057z"
+    color="#000000" fill="url(#b)" style="paint-order:markers fill stroke"/>
+</g>
+</svg>
