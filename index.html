@@ -6,8 +6,7 @@
 
 <title>Tenacity</title>
 <meta name="description"
-  content="an easy-to-use, cross-platform multi-track audio editor/recorder">
-</meta>
+content="an easy-to-use, cross-platform multi-track audio editor/recorder"/>
 <meta name="author" content="Tenacity Team"/>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -16,8 +15,7 @@
 <meta name="theme-color" content="#ffd8a8"> <!-- Orange 2 from Open Color -->
 
 <meta name="keywords"
-  content="Audio, Recording, Editing, Easy-to-Use, FLOSS, Free, Libre, Open-Source, Tenacity">
-</meta>
+content="Audio, Recording, Editing, Easy-to-Use, FLOSS, Free, Libre, Open-Source, Tenacity"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="canonical" href="https://tenacityaudio.org"/>
 
@@ -39,19 +37,25 @@
 
 <div class="header">
   <h1 style="margin-bottom: 1rem;">
-    <img alt="Tenacity" src="images/logo/header-logo.svg" height="51"/>
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+      srcset="images/logo/header-logo/dark.svg"/>
+      <source media="(prefers-color-scheme: light)"
+      srcset="images/logo/header-logo/light.svg"/>
+      <source media="(prefers-color-scheme: dark)"
+      srcset="images/logo/header-logo/dark.png"/>
+      <img alt="Tenacity" src="images/logo/header-logo/light.png"
+      class="tenacity-logo"/>
+    </picture>
   </h1>
   <p>an easy-to-use, cross-platform multi-track audio editor/recorder</p>
   <picture>
     <source media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-light-3840x2160.png">
-    </source>
+    srcset="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-light-3840x2160.png"/>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-dark-3840x2160.png">
-    </source>
-    <img alt=""
-      src="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-light-3840x2160.png" class="main-image">
-    </img>
+    srcset="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-dark-3840x2160.png"/>
+    <img alt="" class="main-image"
+    src="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-light-3840x2160.png"/>
   </picture>
 </div>
 
@@ -78,52 +82,78 @@ if officially publishing the webpage as the Tenacity Team -->
 <h2 style="margin-bottom: calc( var(--page-padding) / 2);">Features</h2>
 <div class="features-section">
   <div class="feature-card">
-    <img alt="" src="images/feature-icons/recording.svg" class="feature-icon"/>
+    <picture>
+      <source srcset="images/feature-icons/recording.svg">
+      <img src="images/feature-icons/recording.png" alt=""
+      class="feature-icon"/>
+    </picture>
     <p><em>Recording</em><br/>
     from audio devices (real or virtual)</p>
   </div>
   <div class="feature-card">
-    <img alt="" src="images/feature-icons/export-import.svg"
-      class="feature-icon">
-    </img>
+    <picture>
+      <source srcset="images/feature-icons/export-import.svg"/>
+      <img src="images/feature-icons/export-import.png" alt=""
+      class="feature-icon"/>
+    </picture>
     <p><em>Export & Import</em><br/>
     a wide range of audio formats (extendible with FFmpeg)</p>
   </div>
   <div class="feature-card">
-    <img alt="" src="images/feature-icons/high-quality.svg"
-      class="feature-icon">
-    </img>
+    <picture>
+      <source srcset="images/feature-icons/high-quality.svg"/>
+      <img src="images/feature-icons/high-quality.png" alt=""
+      class="feature-icon"/>
+    </picture>
     <p><em>High Quality</em><br/>
     including up to 32-bit float audio support</p>
   </div>
   <div class="feature-card">
-    <img alt="" src="images/feature-icons/plugins.svg" class="feature-icon"/>
+    <picture>
+      <source srcset="images/feature-icons/plugins.svg"/>
+      <img src="images/feature-icons/plugins.png" alt=""
+      class="feature-icon"/>
+    </picture>
     <p><em>Plug-Ins</em><br/>
     providing support for VST, LV2, and AU plugins</p>
   </div>
   <div class="feature-card">
-    <img alt="" src="images/feature-icons/scripting.svg" class="feature-icon"/>
+    <picture>
+      <source srcset="images/feature-icons/scripting.svg"/>
+      <img src="images/feature-icons/scripting.png" alt=""
+      class="feature-icon"/>
+    </picture>
     <p><em>Scripting</em><br/>
       in the built-in scripting language Nyquist, or in Python, Perl and
       other languages with named pipes
     </p>
   </div>
   <div class="feature-card">
-    <img alt="" src="images/feature-icons/editing.svg" class="feature-icon"/>
+    <picture>
+      <source srcset="images/feature-icons/editing.svg"/>
+      <img src="images/feature-icons/editing.png" alt=""
+      class="feature-icon"/>
+    </picture>
     <p><em>Editing</em><br/>
     arbitrary sampling and multi-track timeline</p>
   </div>
   <div class="feature-card">
-    <img alt="" src="images/feature-icons/accessibility.svg"
-      class="feature-icon">
-    </img>
+    <picture>
+      <source srcset="images/feature-icons/accessibility.svg"/>
+      <img src="images/feature-icons/accessibility.png" alt=""
+      class="feature-icon"/>
+    </picture>
     <p><em>Accessibility</em><br/>
       including editing via keyboard, screen reader support and narration
       support
     </p>
   </div>
   <div class="feature-card">
-    <img alt="" src="images/feature-icons/tools.svg" class="feature-icon"/>
+    <picture>
+      <source srcset="images/feature-icons/tools.svg"/>
+      <img src="images/feature-icons/tools.svg" alt=""
+      class="feature-icon"/>
+    </picture>
     <p><em>Tools</em><br/>
     useful in the analysis of signals, including audio</p>
   </div>
@@ -218,7 +248,7 @@ if officially publishing the webpage as the Tenacity Team -->
 <div class="padding-before-and-after-text"></div>
 <div class="padding-before-and-after-text"></div>
 
-<pre class="key-cat"">
+<pre class="key-cat">
                  /\_/\
         ________(' - ')
   _____(              )

@@ -12,10 +12,9 @@ div.feature-card {
 	line-height: var(--line-height);
 }
 
-img.feature-icon {
+.feature-icon {
 	height: 32px;
 	padding-top: var(--page-padding);
-	fill: var(--on-background);
 }
 
 @media screen and (max-width: 45rem) {
