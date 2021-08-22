@@ -1,10 +1,10 @@
-.buttons-header {
+.top-buttons-bar {
 	max-width: var(--page-width);
 	display: grid;
 	padding-left: var(--page-padding);
 	padding-right: var(--page-padding);
 	margin-left: auto;	margin-right: auto;
-	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .download-header-link .docs-header-link .community-header-link {

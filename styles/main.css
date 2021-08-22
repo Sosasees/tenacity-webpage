@@ -12,14 +12,6 @@
 	--corner-radius: 5px;
 }
 
-.header {
-	width: 100%;
-	color: var(--color-on-background);
-	text-align: center;
-	padding-top: 1rem;	padding-bottom: 1rem;
-	padding-left: 0;	padding-right: 0;
-}
-
 .tenacity-logo {
 	height: 51px;
 }
