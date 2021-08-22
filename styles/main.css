@@ -45,8 +45,9 @@ p {
 	line-height: var(--line-height);
 }
 
-h2 {	text-align: center;	}
-h3 {	text-align: center;	}
+h2, h3, h4 {	text-align: center;	}
+h3 {	margin-bottom: 0.75rem;	}
+h4 {	margin-top: 0.6rem;	margin-bottom: 0.4rem;	}
 
 em {
 	font-style: normal;
