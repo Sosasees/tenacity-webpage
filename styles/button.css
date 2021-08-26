@@ -1,39 +1,41 @@
 .button {
-	--shadow-normal: 0 0 2px #00001040;
-	--shadow-hover: 0 0 3px #00001080;
-	--shadow-active: 0 0 4px #00001090;
-	--transition-time: 0.1s
+    --shadow-normal: 0 0 2px #00001040;
+    --shadow-hover: 0 0 3px #00001080;
+    --shadow-active: 0 0 4px #00001090;
+    --transition-time: 0.1s
 }
 
 a:link.button, a:visited.button {
-	text-decoration: none;
-	padding-top: 0.65rem;	padding-bottom: 0.6rem;
-	padding-left: 1rem;	padding-right: 1rem;
-	margin: 2px;
-	/*line-height: var(--line-height);*/
-	background-color: var(--color-primary);
-	color: var(--color-on-primary);
-	border-radius: var(--corner-radius);
+    text-decoration: none;
+    padding-top: 0.65rem;    
+    padding-bottom: 0.6rem;
+    padding-left: 1rem;    
+    padding-right: 1rem;
+    margin: 2px;
+    /*line-height: var(--line-height);*/
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    border-radius: var(--corner-radius);
 }
 a:link.button, a:visited.button {
-	box-shadow: var(--shadow-normal);
-	transition: var(--transition-time);
+    box-shadow: var(--shadow-normal);
+    transition: var(--transition-time);
 }
 a:focus.button, a:hover.button {
-	box-shadow: var(--shadow-hover);
-	transition: var(--transition-time);
+    box-shadow: var(--shadow-hover);
+    transition: var(--transition-time);
 }
 a:active.button {
-	box-shadow: var(--shadow-active);
-	transition: var(--transition-time);
+    box-shadow: var(--shadow-active);
+    transition: var(--transition-time);
 }
 
 a:link.header-button, a:visited.header-button {
-	background-color: var(--color-on-primary);
-	color: var(--color-primary);
+    background-color: var(--color-on-primary);
+    color: var(--color-primary);
 }
 
 
 a:link.emphasized-button, a:visited.emphasized-button {
-	background-image: linear-gradient( to top right, var(--color-primary), var(--color-primary-gradient-end) );
+    background-image: linear-gradient( to top right, var(--color-primary), var(--color-primary-gradient-end) );
 }

@@ -1,296 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>Tenacity</title>
+        <meta name="description" content="an easy-to-use, cross-platform multi-track audio editor/recorder"/>
+        <meta name="author" content="Tenacity"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+        <link rel="shortcut icon" type="image/svg" href="images/logo/favicon.svg"/>
+        <meta name="theme-color" content="#ffd8a8"> <!-- Orange 2 from Open Color -->
+        <meta name="keywords" content="Audio, Recording, Editing, Easy-to-Use, FLOSS, Free, Libre, Open-Source, Tenacity"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="canonical" href="https://tenacityaudio.org"/>
+    </head>
 
+    <body>
+        <div style="text-align: center">
+            <h1 style="margin-bottom: 1rem;">
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="images/logo/header-logo/dark.svg"/>
+                    <source media="(prefers-color-scheme: light)" srcset="images/logo/header-logo/light.svg"/>
+                    <source media="(prefers-color-scheme: dark)" srcset="images/logo/header-logo/dark.png"/>
+                    <img alt="Tenacity" src="images/logo/header-logo/light.png" class="tenacity-logo"/>
+                </picture>
+            </h1>
+            <p>an easy-to-use, cross-platform multi-track audio editor/recorder</p>
 
-<head>
+            <div class="top-buttons-bar">
+                <a href="https://github.com/tenacityteam/tenacity/releases" class="download-header-link emphasized-button button">
+                    <b>Download</b>
+                </a>
+                <a href="placeholder.html" class="docs-header-link button">Documentation</a>
+                <a href="#community-buttons" class="community-header-link button">
+                    Community & Source Code
+                </a>
+            </div>
 
-<title>Tenacity</title>
-<meta name="description"
-content="an easy-to-use, cross-platform multi-track audio editor/recorder"/>
-<meta name="author" content="Tenacity Team"/>
+            <picture>
+                <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-light-3840x2160.png"/>
+                <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-dark-3840x2160.png"/>
+                <img alt="" class="main-image" src="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-light-3840x2160.png"/>
+            </picture>
+        </div>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" type="text/css" href="styles/main.css"/>
-<link rel="shortcut icon" type="image/svg" href="images/logo/favicon.svg"/>
-<meta name="theme-color" content="#ffd8a8"> <!-- Orange 2 from Open Color -->
+        <div class="padding-before-and-after-text"></div>
 
-<meta name="keywords"
-content="Audio, Recording, Editing, Easy-to-Use, FLOSS, Free, Libre, Open-Source, Tenacity"/>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="canonical" href="https://tenacityaudio.org"/>
+        <!-- Remove the following <p> element if officially publishing the webpage as the Tenacity Team -->
+        <p class="standard-paragraph">
+            Hint: This is not the real Tenacity website.
+            This is a working prototype made by Sosasees
+            for suggestion purposes.<br/>
+            <a href="https://www.github.com/sosasees/tenacity-webpage">
+                View its Source Code on GitHub.
+            </a>
+        </p>
 
-</head>
+        <p class="standard-paragraph">
+            <em>Tenacity</em> is an easy-to-use, cross-platform multi-track
+            audio&nbsp;editor/recorder for Windows, MacOS, GNU/Linux and other
+            operating systems and is developed by a group of volunteers as
+            open-source software.
+        </p>
 
+        <h2 style="margin-bottom: calc( var(--page-padding) / 2);">Features</h2>
+        <div class="features-section">
+            <div class="feature-card">
+                <picture>
+                    <source srcset="images/feature-icons/recording.svg">
+                    <img src="images/feature-icons/recording.png" alt="" class="feature-icon"/>
+                </picture>
+                <p>
+                    <em>Recording</em><br/>
+                    from audio devices (real or virtual)
+                </p>
+            </div>
+            <div class="feature-card">
+                <picture>
+                    <source srcset="images/feature-icons/export-import.svg"/>
+                    <img src="images/feature-icons/export-import.png" alt="" class="feature-icon"/>
+                </picture>
+                <p>
+                    <em>Export & Import</em><br/>
+                    a wide range of audio formats (extendible with FFmpeg)
+                </p>
+            </div>
+            <div class="feature-card">
+                <picture>
+                    <source srcset="images/feature-icons/high-quality.svg"/>
+                    <img src="images/feature-icons/high-quality.png" alt="" class="feature-icon"/>
+                </picture>
+                <p>
+                    <em>High Quality</em><br/>
+                    including up to 32-bit float audio support
+                </p>
+            </div>
+            <div class="feature-card">
+                <picture>
+                    <source srcset="images/feature-icons/plugins.svg"/>
+                    <img src="images/feature-icons/plugins.png" alt="" class="feature-icon"/>
+                </picture>
+                <p>
+                    <em>Plug-Ins</em><br/>
+                    providing support for VST, LV2, and AU plugins
+                </p>
+            </div>
+            <div class="feature-card">
+                <picture>
+                    <source srcset="images/feature-icons/scripting.svg"/>
+                    <img src="images/feature-icons/scripting.png" alt="" class="feature-icon"/>
+                </picture>
+                <p>
+                    <em>Scripting</em><br/>
+                    in the built-in scripting language Nyquist, or in Python,
+                    Perl and other languages with named pipes
+                </p>
+            </div>
+            <div class="feature-card">
+                <picture>
+                    <source srcset="images/feature-icons/editing.svg"/>
+                    <img src="images/feature-icons/editing.png" alt="" class="feature-icon"/>
+                </picture>
+                <p>
+                    <em>Editing</em><br/>
+                    arbitrary sampling and multi-track timeline
+                </p>
+            </div>
+            <div class="feature-card">
+                <picture>
+                    <source srcset="images/feature-icons/accessibility.svg"/>
+                    <img src="images/feature-icons/accessibility.png" alt="" class="feature-icon"/>
+                </picture>
+                <p>
+                    <em>Accessibility</em><br/>
+                    including editing via keyboard, screen reader support and
+                    narration support
+                </p>
+            </div>
+            <div class="feature-card">
+                <picture>
+                    <source srcset="images/feature-icons/tools.svg"/>
+                    <img src="images/feature-icons/tools.svg" alt="" class="feature-icon"/>
+                </picture>
+                <p>
+                    <em>Tools</em><br/>
+                    useful in the analysis of signals, including audio
+                </p>
+            </div>
+        </div>
 
-<body>
+        <h2 style="margin-top: calc( var(--page-padding) / 2 );">Getting Started</h2>
+        <p class="standard-paragraph">
+            Prepackaged builds will be available through the
+            <a href="https://github.com/tenacityteam/tenacity/releases">releases page</a>
+            on the repository once the initial process of transitioning the
+            project is completed enough for the first release version.
+            Packaging Tenacity to other package managers is already
+            <a href="https://github.com/tenacityteam/tenacity/labels/packaging">
+                planned
+            </a>
+        </p>
+        <p class="standard-paragraph">
+            Alternatively, you can build Tenacity from source.
+            <a href="https://git.sr.ht/~tenacity/tenacity/tree/master/item/BUILDING.md">
+                See BUILDING.md
+            </a>
+        </p>
 
-<div style="text-align: center">
+        <h2>Getting Help</h2>
+        <p class="standard-paragraph">
+            A great place to ask for general questions with using Tenacity,
+            starting discussions about your ideas and feature requests,
+            and generally getting to know the community is the
+            <a href="https://lists.sr.ht/~tenacity/tenacity-discuss">
+                tenacity-discuss mailing list
+            </a>.
+        </p>
+        <p class="standard-paragraph">
+            You may also use our IRC channel,
+            <a href="irc://irc.libera.chat/#tenacity">#tenacity</a>
+            (hosted on irc.libera.chat),<br/>
+            where you're welcome to ask questions
+            and have discussions in a more free-form, real-time context.
+            The channel is also
+            <a href="https://matrix.to/#/#tenacity:semisol.dev">bridged to Matrix</a>. 
+        </p>
 
-  <h1 style="margin-bottom: 1rem;">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"
-      srcset="images/logo/header-logo/dark.svg"/>
-      <source media="(prefers-color-scheme: light)"
-      srcset="images/logo/header-logo/light.svg"/>
-      <source media="(prefers-color-scheme: dark)"
-      srcset="images/logo/header-logo/dark.png"/>
-      <img alt="Tenacity" src="images/logo/header-logo/light.png"
-      class="tenacity-logo"/>
-    </picture>
-  </h1>
+        <h2>Development</h2>
+        <p class="standard-paragraph">
+            The upstream development repository may be found on sr.ht.
+        </p>
+        <p class="standard-paragraph">
+            Contribute by sending patches to the<br/>
+            <a href="https://lists.sr.ht/~tenacity/tenacity-dev">
+                development mailing list
+            </a> at
+            <a href="mailto:~tenacity/tenacity-dev@lists.sr.ht">
+                ~tenacity/tenacity-dev@lists.sr.ht
+            </a>. 
+        </p>
 
-  <p>an easy-to-use, cross-platform multi-track audio editor/recorder</p>
+        <h2>Useful Links</h2>
+        <div class="buttons-section" style="grid-template-columns: auto;">
+            <a href="https://github.com/tenacityteam/tenacity/releases" class="emphasized-button button">
+                <b>Download</b>
+            </a>
+        </div>
 
-  <div class="top-buttons-bar">
-    <a href="https://github.com/tenacityteam/tenacity/releases"
-      class="download-header-link emphasized-button button">
-      <b>Download</b>
-    </a>
-    <a href="placeholder.html" class="docs-header-link button">Documentation</a>
-    <a href="#community-buttons"
-      class="community-header-link button">Community & Source Code
-    </a>
-  </div>
+        <div style="height: 1rem;"></div>
 
-  <picture>
-    <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-light-3840x2160.png"/>
-    <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-dark-3840x2160.png"/>
-    <img alt="" class="main-image"
-    src="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-light-3840x2160.png"/>
-  </picture>
+        <div class="buttons-section" style="grid-template-columns: auto;">
+            <a href="placeholder.html" class="button">Documentation</a>
+        </div>
 
-</div>
+        <h3 id="community-buttons">Community</h3>
+        <div class="buttons-section">
+            <a href="https://sr.ht/~tenacity/tenacity/lists" class="community-maillist-link button">
+                Mailing Lists
+            </a>
+        </div>
 
-<div class="padding-before-and-after-text"></div>
+        <h4>Chat</h4>
+        <div class="buttons-section">
+            <a href="irc://irc.libera.chat/tenacity" class="community-irc-link button button">
+                In IRC client
+            </a>
+            <a href="https://web.libera.chat/gamja/?channels=#tenacity" class="community-irc-join-link button">
+                On web.libera.chat
+            </a>
+            <a href="https://matrix.to/#/#tenacity:semisol.dev" class="community-matrix-link button">
+                Bridge to Matrix
+            </a>
+        </div>
 
-<!-- Remove the following <p> element
-if officially publishing the webpage as the Tenacity Team -->
-<p class="standard-paragraph">
-  Hint: This is not the real Tenacity website.
-  This is a working prototype made by Sosasees
-  for suggestion purposes.<br/>
-  <a href="https://www.github.com/sosasees/tenacity-webpage">
-    View its Source Code on GitHub.
-  </a>
-</p>
+        <h3>Source Code</h3>
+        <div class="buttons-section">
+            <a href="https://git.sr.ht/~tenacity/tenacity" class="source-sourcehut-link button">
+                SourceHut
+            </a>
+            <a href="https://github.com/tenacityteam/tenacity" class="source-github-link button">
+                GitHub
+            </a>
+        </div>
 
-<p class="standard-paragraph">
-  <em>Tenacity</em> is an easy-to-use, cross-platform multi-track
-  audio&nbsp;editor/recorder
-  for Windows, MacOS, GNU/Linux and other operating systems
-  and is developed by a group of volunteers as open-source software.
-</p>
+        <div class="padding-before-and-after-text"></div>
+        <div class="padding-before-and-after-text"></div>
 
-<h2 style="margin-bottom: calc( var(--page-padding) / 2);">Features</h2>
-<div class="features-section">
-  <div class="feature-card">
-    <picture>
-      <source srcset="images/feature-icons/recording.svg">
-      <img src="images/feature-icons/recording.png" alt=""
-      class="feature-icon"/>
-    </picture>
-    <p><em>Recording</em><br/>
-    from audio devices (real or virtual)</p>
-  </div>
-  <div class="feature-card">
-    <picture>
-      <source srcset="images/feature-icons/export-import.svg"/>
-      <img src="images/feature-icons/export-import.png" alt=""
-      class="feature-icon"/>
-    </picture>
-    <p><em>Export & Import</em><br/>
-    a wide range of audio formats (extendible with FFmpeg)</p>
-  </div>
-  <div class="feature-card">
-    <picture>
-      <source srcset="images/feature-icons/high-quality.svg"/>
-      <img src="images/feature-icons/high-quality.png" alt=""
-      class="feature-icon"/>
-    </picture>
-    <p><em>High Quality</em><br/>
-    including up to 32-bit float audio support</p>
-  </div>
-  <div class="feature-card">
-    <picture>
-      <source srcset="images/feature-icons/plugins.svg"/>
-      <img src="images/feature-icons/plugins.png" alt=""
-      class="feature-icon"/>
-    </picture>
-    <p><em>Plug-Ins</em><br/>
-    providing support for VST, LV2, and AU plugins</p>
-  </div>
-  <div class="feature-card">
-    <picture>
-      <source srcset="images/feature-icons/scripting.svg"/>
-      <img src="images/feature-icons/scripting.png" alt=""
-      class="feature-icon"/>
-    </picture>
-    <p><em>Scripting</em><br/>
-      in the built-in scripting language Nyquist, or in Python, Perl and
-      other languages with named pipes
-    </p>
-  </div>
-  <div class="feature-card">
-    <picture>
-      <source srcset="images/feature-icons/editing.svg"/>
-      <img src="images/feature-icons/editing.png" alt=""
-      class="feature-icon"/>
-    </picture>
-    <p><em>Editing</em><br/>
-    arbitrary sampling and multi-track timeline</p>
-  </div>
-  <div class="feature-card">
-    <picture>
-      <source srcset="images/feature-icons/accessibility.svg"/>
-      <img src="images/feature-icons/accessibility.png" alt=""
-      class="feature-icon"/>
-    </picture>
-    <p><em>Accessibility</em><br/>
-      including editing via keyboard, screen reader support and narration
-      support
-    </p>
-  </div>
-  <div class="feature-card">
-    <picture>
-      <source srcset="images/feature-icons/tools.svg"/>
-      <img src="images/feature-icons/tools.svg" alt=""
-      class="feature-icon"/>
-    </picture>
-    <p><em>Tools</em><br/>
-    useful in the analysis of signals, including audio</p>
-  </div>
-</div>
+        <pre class="key-cat">
+                         /\_/\
+                ________(' - ')
+          _____(              )
+         /     (______________)
+         '     | |          | |
+               | |          | |  hello
+               '"'          '"'
+        </pre>
 
-<h2 style="margin-top: calc( var(--page-padding) / 2 );">Getting Started</h2>
-<p class="standard-paragraph">
-  Prepackaged builds will be available through the
-  <a href="https://github.com/tenacityteam/tenacity/releases">releases page</a>
-  on the repository once the initial process of transitioning the project
-  is completed enough for the first release version.
-  Packaging Tenacity to other package managers is already
-  <a href="https://github.com/tenacityteam/tenacity/labels/packaging">
-    planned
-  </a>
-</p>
-<p class="standard-paragraph">
-  Alternatively, you can build Tenacity from source.
-  <a href="https://git.sr.ht/~tenacity/tenacity/tree/master/item/BUILDING.md">
-    See BUILDING.md
-  </a>
-</p>
-
-<h2>Getting Help</h2>
-<p class="standard-paragraph">
-  A great place to ask for general questions with using Tenacity,
-  starting discussions about your ideas and feature requests,
-  and generally getting to know the community is the
-  <a href="https://lists.sr.ht/~tenacity/tenacity-discuss">
-    tenacity-discuss mailing list
-  </a>.
-</p>
-<p class="standard-paragraph">
-  You may also use our IRC channel,
-  <a href="irc://irc.libera.chat/#tenacity">#tenacity</a>
-    (hosted on irc.libera.chat),<br/>
-  where you're welcome to ask questions
-  and have discussions in a more free-form, real-time context.
-  The channel is also
-  <a href="https://matrix.to/#/#tenacity:semisol.dev">bridged to Matrix</a>. 
-</p>
-
-<h2>Development</h2>
-<p class="standard-paragraph">
-  The upstream development repository may be found on sr.ht.
-</p>
-<p class="standard-paragraph">
-  Contribute by sending patches to the<br/>
-  <a href="https://lists.sr.ht/~tenacity/tenacity-dev">
-  development mailing list</a> at
-  <a href="mailto:~tenacity/tenacity-dev@lists.sr.ht">
-  ~tenacity/tenacity-dev@lists.sr.ht</a>. 
-</p>
-
-<h2>Useful Links</h2>
-
-<div class="buttons-section" style="grid-template-columns: auto;">
-  <a href="https://github.com/tenacityteam/tenacity/releases"
-    class="emphasized-button button"><b>Download</b>
-  </a>
-</div>
-
-<div style="height: 1rem;"></div>
-
-<div class="buttons-section" style="grid-template-columns: auto;">
-  <a href="placeholder.html" class="button">Documentation</a>
-</div>
-
-<h3 id="community-buttons">Community</h3>
-
-<div class="buttons-section">
-  <a href="https://sr.ht/~tenacity/tenacity/lists"
-    class="community-maillist-link button">Mailing Lists
-  </a>
-</div>
-
-<h4>Chat</h4>
-
-<div class="buttons-section">
-  <a href="irc://irc.libera.chat/tenacity"
-    class="community-irc-link button button">In IRC client
-  </a>
-  <a href="https://web.libera.chat/gamja/?channels=#tenacity"
-    class="community-irc-join-link button">On web.libera.chat
-  </a>
-  <a href="https://matrix.to/#/#tenacity:semisol.dev"
-    class="community-matrix-link button">Bridge to Matrix</a>
-</div>
-
-<h3>Source Code</h3>
-<div class="buttons-section">
-  <a href="https://git.sr.ht/~tenacity/tenacity"
-    class="source-sourcehut-link button">SourceHut
-  </a>
-  <a href="https://github.com/tenacityteam/tenacity"
-    class="source-github-link button">GitHub
-  </a>
-</div>
-
-<div class="padding-before-and-after-text"></div>
-<div class="padding-before-and-after-text"></div>
-
-<pre class="key-cat">
-                 /\_/\
-        ________(' - ')
-  _____(              )
- /     (______________)
- '     | |          | |
-       | |          | |  hello
-       '"'          '"'
-</pre>
-
-<footer><div class="footer-contents">
-  <p class="footer-contents">
-    <a href="https://git.sr.ht/~tenacity/tenacityaudio.org"
-    class="footer-contents">This Website's Source Code</a>
-  </p><p class="footer-contents">
-    <a href="https://github.com/tenacityteam/assets/tree/master/screenshots"
-    class="footer-contents">Screenshots</a> by
-    <a href="https://github.com/vchernin" class="footer-contents">
-    @vchernin on GitHub</a>, licensed under
-    <a href="https://creativecommons.org/licenses/by/4.0/"
-    class="footer-contents">CC-BY 4.0</a>
-  </p>
-  <p class="footer-contents">
-    <a href="https://git.semisol.dev/Semisol/cat"
-    class="footer-contents">Tenacity Mascot "Key the Cat"</a> by
-    <a href="https://github.com/Semisol" class="footer-contents">
-    @semisol on GitHub</a>
-  </p>
-</div></footer>
-
-</body>
-
-
+        <footer><div class="footer-contents">
+            <p class="footer-contents">
+                <a href="https://git.sr.ht/~tenacity/tenacityaudio.org" class="footer-contents">This Website's Source Code</a>
+            </p>
+            <p class="footer-contents">
+                <a href="https://github.com/tenacityteam/assets/tree/master/screenshots" class="footer-contents">
+                    Screenshots
+                </a> by
+                <a href="https://github.com/vchernin" class="footer-contents">
+                    @vchernin on GitHub
+                </a>, licensed under
+                <a href="https://creativecommons.org/licenses/by/4.0/" class="footer-contents">
+                    CC-BY 4.0
+                </a>
+            </p>
+            <p class="footer-contents">
+                <a href="https://git.semisol.dev/Semisol/cat" class="footer-contents">
+                    Tenacity Mascot "Key the Cat"
+                </a> by
+                <a href="https://github.com/Semisol" class="footer-contents">
+                    @semisol on GitHub
+                </a>
+          </p>
+        </div></footer>
+    </body>
 </html>
