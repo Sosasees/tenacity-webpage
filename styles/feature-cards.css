@@ -1,39 +1,45 @@
 div.features-section {
-	padding-left: var(--page-padding);
-	padding-right: var(--page-padding);
-	max-width: var(--extended-page-width);
-	margin: auto;
-	display: grid;
-	grid-auto-flow: row;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+    max-width: var(--extended-page-width);
+    margin: auto;
+    display: grid;
+    grid-auto-flow: row;
 }
 
 div.feature-card {
-	display: flex;
-	line-height: var(--line-height);
+    display: flex;
+    line-height: var(--line-height);
 }
 
 .feature-icon {
-	height: 32px;
-	padding-top: var(--page-padding);
+    height: 32px;
+    padding-top: var(--page-padding);
 }
 
 @media screen and (max-width: 45rem) {
-	div.features-section {	grid-template-columns: auto;	}
+    div.features-section {
+        grid-template-columns: auto;
+    }
 }
 @media screen and (min-width: 45rem) and (max-width: 60rem) {
-	div.features-section {	grid-template-columns: auto auto;	}
+    div.features-section {
+        grid-template-columns: auto auto;
+    }
 }
 @media screen and (min-width: 60rem) {
-	div.features-section {	grid-template-columns: auto auto auto;	}
+    div.features-section {
+        grid-template-columns: auto auto auto;
+    }
 }
 
 /* Filters recoloring the icons to --color-on-background: generated with
 https://codepen.io/sosuke/pen/Pjoqqp
 */
 @media(prefers-color-scheme: light) { img.feature-icon {
-	filter: invert(17%) sepia(2%) saturate(4058%) hue-rotate(170deg) brightness(93%) contrast(81%);
+    filter: invert(17%) sepia(2%) saturate(4058%) hue-rotate(170deg) brightness(93%) contrast(81%);
 } }
 @media(prefers-color-scheme: dark) { img.feature-icon {
-	filter: invert(94%) sepia(9%) saturate(154%) hue-rotate(168deg) brightness(88%) contrast(97%);
+    filter: invert(94%) sepia(9%) saturate(154%) hue-rotate(168deg) brightness(88%) contrast(97%);
 } }
 

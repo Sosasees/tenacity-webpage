@@ -1,23 +1,23 @@
-/* Some of the colors are from Open Color:	*/
-/* https://yeun.github.io/open-color/	*/
-/* The Tenacity Brand Colors are not from Open color.	*/
+/* Some of the colors are from Open Color:    */
+/* https://yeun.github.io/open-color/    */
+/* The Tenacity Brand Colors are not from Open color.    */
 
 @media(prefers-color-scheme: light) { :root {
-	--color-background: #fff4e6; /*Orange 0 from Open Color*/
-	--color-on-background: #212529; /*Gray 9 from Open Color*/
-	--color-on-background-link: #dd1547;
-	--color-on-background-link-visited: #5c1c33;
-	--color-primary: #ca153e;
-	--color-primary-gradient-end: #e93c17;
-	--color-on-primary: #f8f9fa; /*Gray 0 from Open Color*/
-	--color-link: #c4163a;
+    --color-background: #fff4e6; /*Orange 0 from Open Color*/
+    --color-on-background: #212529; /*Gray 9 from Open Color*/
+    --color-on-background-link: #dd1547;
+    --color-on-background-link-visited: #5c1c33;
+    --color-primary: #ca153e;
+    --color-primary-gradient-end: #e93c17;
+    --color-on-primary: #f8f9fa; /*Gray 0 from Open Color*/
+    --color-link: #c4163a;
 }}
 @media(prefers-color-scheme: dark) { :root {
-	--color-background: #191e23; /*Darker than Gray 9 from Open Color*/
-	--color-on-background: #ced4da; /*Gray 4 from Open Color*/
-	--color-on-background-link: #ee4874;
-	--color-on-background-link-visited: #f4b0bc;
-	--color-primary: #ca153e;
-	--color-primary-gradient-end: #e93c17;
-	--color-on-primary: #f1f3f5; /*Gray 1 from Open Color*/
+    --color-background: #191e23; /*Darker than Gray 9 from Open Color*/
+    --color-on-background: #ced4da; /*Gray 4 from Open Color*/
+    --color-on-background-link: #ee4874;
+    --color-on-background-link-visited: #f4b0bc;
+    --color-primary: #ca153e;
+    --color-primary-gradient-end: #e93c17;
+    --color-on-primary: #f1f3f5; /*Gray 1 from Open Color*/
 }}
