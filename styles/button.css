@@ -3,6 +3,7 @@
     --shadow-hover: 0 0 3px #00001080;
     --shadow-active: 0 0 4px #00001090;
     --transition-time: 0.1s
+    display: inline;
 }
 
 a:link.button, a:visited.button {

@@ -1,7 +1,0 @@
-The image files 'favicon.svg' and 'header-logo.svg'
-are modified versions of the original Tenacity logo which can be found here:
-https://github.com/tenacityteam/assets/tree/master/originals
-
-The original images, and as such these modified versions,
-are licensed under CC-BY 4.0:
-https://creativecommons.org/licenses/by/4.0/

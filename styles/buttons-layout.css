@@ -12,7 +12,7 @@
     width: 1rem;
 }
 
-@media (max-width: 35rem) {
+@media (max-width: 39rem) {
     .download-header-link {
         grid-row: 1;
         grid-column: 1;
@@ -26,7 +26,7 @@
         grid-column: 1;
     }
 }
-@media (min-width: 35rem) {
+@media (min-width: 39rem) {
     .download-header-link {
         grid-row: 1;
         grid-column: 1 / 98;
