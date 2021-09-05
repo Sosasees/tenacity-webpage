@@ -14,7 +14,7 @@
     </head>
 
     <body>
-        <div style="text-align: center">
+        <header style="text-align: center">
             <h1 style="margin-bottom: 1rem;">
                 <picture>
                     <source media="(prefers-color-scheme: dark)" srcset="images/logo/header-logo/dark.svg"/>
@@ -34,7 +34,7 @@
                         </picture>
                 </a>
                 <a href="placeholder.html" class="docs-header-link button">Documentation</a>
-                <a href="#community-buttons" class="community-header-link button">
+                <a href="community.html" class="community-header-link button">
                     Community & Source Code
                 </a>
             </div>
@@ -44,7 +44,7 @@
                 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-dark-3840x2160.png"/>
                 <img alt="" class="main-image" src="https://raw.githubusercontent.com/tenacityteam/assets/master/screenshots/tenacity-screenshot-light-3840x2160.png"/>
             </picture>
-        </div>
+        </header>
 
         <div class="padding-before-and-after-text"></div>
 
@@ -200,91 +200,58 @@
             <a href="mailto:~tenacity/tenacity-dev@lists.sr.ht">
                 ~tenacity/tenacity-dev@lists.sr.ht
             </a>. 
-        </p>
+        </p> 
 
-        <h2>Useful Links</h2>
-        <div class="buttons-section" style="grid-template-columns: auto;">
-            <a href="https://github.com/tenacityteam/tenacity/releases" class="emphasized-button button">
-                <b>Download</b>
-                <picture class="download-button-logos">
-                    <source srcset="images/download-button-logos/download-button-logos.svg"/>
-                    <img alt=" for Windows, Mac, Linux, and BSD" src="images/download-button-logos/download-button-logos.png"/>
-                </picture>
-            </a>
-        </div>
+        <footer>
 
-        <div style="height: 1rem;"></div>
-
-        <div class="buttons-section" style="grid-template-columns: auto;">
-            <a href="placeholder.html" class="button">Documentation</a>
-        </div>
-
-        <h3 id="community-buttons">Community</h3>
-        <div class="buttons-section">
-            <a href="https://sr.ht/~tenacity/tenacity/lists" class="community-maillist-link button">
-                Mailing Lists
-            </a>
-        </div>
-
-        <h4>Chat</h4>
-        <div class="buttons-section">
-            <a href="irc://irc.libera.chat/tenacity" class="community-irc-link button">
-                In IRC client
-            </a>
-            <a href="https://web.libera.chat/gamja/?channels=#tenacity" class="community-irc-join-link button">
-                On web.libera.chat
-            </a>
-            <a href="https://matrix.to/#/#tenacity:semisol.dev" class="community-matrix-link button">
-                Bridge to Matrix
-            </a>
-        </div>
-
-        <h3>Source Code</h3>
-        <div class="buttons-section">
-            <a href="https://git.sr.ht/~tenacity/tenacity" class="source-sourcehut-link button">
-                SourceHut
-            </a>
-            <a href="https://github.com/tenacityteam/tenacity" class="source-github-link button">
-                GitHub
-            </a>
-        </div>
-
-        <div class="padding-before-and-after-text"></div>
-        <div class="padding-before-and-after-text"></div>
-
-        <pre class="key-cat">
-                         /\_/\
-                ________(' - ')
-          _____(              )
-         /     (______________)
-         '     | |          | |
-               | |          | |  hello
-               '"'          '"'
-        </pre>
-
-        <footer><div class="footer-contents">
-            <p class="footer-contents">
-                <a href="https://git.sr.ht/~tenacity/tenacityaudio.org" class="footer-contents">This Website's Source Code</a>
-            </p>
-            <p class="footer-contents">
-                <a href="https://github.com/tenacityteam/assets/tree/master/screenshots" class="footer-contents">
-                    Screenshots
-                </a> by
-                <a href="https://github.com/vchernin" class="footer-contents">
-                    @vchernin on GitHub
-                </a>, licensed under
-                <a href="https://creativecommons.org/licenses/by/4.0/" class="footer-contents">
-                    CC-BY 4.0
+            <div class="top-buttons-bar">
+                <a href="https://github.com/tenacityteam/tenacity/releases" class="download-header-link emphasized-button button">
+                    <b>Download</b>
+                    <picture>
+                        <source srcset="images/download-button-logos/download-button-logos.svg"/>
+                        <img alt=" for Windows, Mac, Linux, and BSD" src="images/download-button-logos/download-button-logos.png"/>
+                    </picture>
                 </a>
-            </p>
-            <p class="footer-contents">
-                <a href="https://git.semisol.dev/Semisol/cat" class="footer-contents">
-                    Tenacity Mascot "Key the Cat"
-                </a> by
-                <a href="https://github.com/Semisol" class="footer-contents">
-                    @semisol on GitHub
+                <a href="placeholder.html" class="docs-header-link button">Documentation</a>
+                <a href="community.html" class="community-header-link button">
+                    Community & Source Code
                 </a>
-          </p>
-        </div></footer>
+            </div>
+
+            <pre class="key-cat">
+                             /\_/\
+                    ________(' - ')
+              _____(              )
+             /     (______________)
+             '     | |          | |
+                   | |          | |  hello
+                   '"'          '"'
+            </pre>
+
+            <div class="footer-contents" style="width: var(--page-width);">
+                <p class="footer-contents">
+                    <a href="https://git.sr.ht/~tenacity/tenacityaudio.org" class="footer-contents">This Website's Source Code</a>
+                </p>
+                <p class="footer-contents">
+                    <a href="https://github.com/tenacityteam/assets/tree/master/screenshots" class="footer-contents">
+                        Screenshots
+                    </a> by
+                    <a href="https://github.com/vchernin" class="footer-contents">
+                        @vchernin on GitHub
+                    </a>, licensed under
+                    <a href="https://creativecommons.org/licenses/by/4.0/" class="footer-contents">
+                        CC-BY 4.0
+                    </a>
+                </p>
+                <p class="footer-contents">
+                    <a href="https://git.semisol.dev/Semisol/cat" class="footer-contents">
+                        Tenacity Mascot "Key the Cat"
+                    </a> by
+                    <a href="https://github.com/Semisol" class="footer-contents">
+                        @semisol on GitHub
+                    </a>
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
