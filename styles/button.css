@@ -22,6 +22,7 @@ a:link.button, a:visited.button {
     transition: var(--transition-time);
 }
 a:focus.button, a:hover.button {
+    text-decoration: underline;
     box-shadow: var(--shadow-hover);
     transition: var(--transition-time);
 }
